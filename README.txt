@@ -1,7 +1,7 @@
 Read ME - MIDIHAPTIC
 
 What is this project?
-The idea is that one can passively learn via haptic feedback to produce muscle memory. This project takes generic MIDI files and interprets them into per finger haptic feedback to induce such memory effects. This software is meant to be paired with hardware, which communicates via serial. For those seeking to just experiment with the program, a precompiled binary exists with
+The idea is that one can passively learn via haptic feedback to produce muscle memory. This project takes generic MIDI files and interprets them into per finger haptic feedback to induce such memory effects. This software is meant to be paired with hardware, which communicates via serial. For those seeking to just experiment with the program, a precompiled binary exists with the required note files for audio.
 
 What Hardware?
 The hardware can be custom made to anything desired but must accept a stream of HEX codes delimited by a '+' to signify the end of a sequence. The serial output, by default, is a number representing each finger to be played. The left pinky is 1 and the right pinky is 10.
